@@ -1,7 +1,10 @@
 {
   "name": "buxfer-mcp",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
-  "description": "Read-only Buxfer MCP server for Claude, hosted on Vercel. No runtime dependencies."
+  "description": "Buxfer MCP server for Claude, hosted on Vercel: read-only by default, with optional add-only writes. No runtime dependencies.",
+  "scripts": {
+    "test": "node test/run.mjs && node test/write.mjs"
+  }
 }
