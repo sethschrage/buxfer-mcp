@@ -1,0 +1,7 @@
+{
+  "name": "buxfer-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only Buxfer MCP server for Claude, hosted on Vercel. No runtime dependencies."
+}
